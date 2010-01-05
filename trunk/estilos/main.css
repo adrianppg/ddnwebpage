@@ -10,43 +10,102 @@
 
 	font-size: 11px;
 	
-	background:transparent url(../img/bg_top.jpg) repeat-x scroll 0 0;
+	/* background:transparent url(../img/bg_top.jpg) repeat-x scroll 0 0;*/
+	
+	background:#F2F2F ;
+	
+	height: 100%
 
 }
 
-.leftMenu *{
-background: transparent;
+
+.i-bloque_izq {
+
+ 	width: 180px;
+
+ 	margin-right: 20px;
+	
+ 	padding: 0px;
+
+ 	float: left;
+	
+	height: 300px;
+	
+	background: url("../img/leftPane_bg.png")
+
 }
 
-.leftMenu dl {
-list-style: none;
-margin: 0;
-text-align: left;
-padding:10px 0px 10px;
+
+
+.i-bloque_der {
+
+  font-size: 100%;
+
+  line-height: 125%;
+
+  margin: 10px;
+
+  width: 720px;
+  
+
+  float: right;
+
+  padding: 5px 10px;
+
 }
-.leftMenu dt{
-margin: 0;
-padding: 0 5px 0;
-width:100%;
-height:40px;
+
+
+
+.i-bloque_der li {
+
+  padding-top: 8px;
+
+}
+
+ 
+
+.i-bloque_der h1 {
+
+	font-size: 140%;
+
+}
+
+.i-bloque_izq *{
+	background: transparent;
+}
+
+.i-bloque_izq dl {
+	list-style: none;
+	margin: 0;
+	text-align: left;
+	padding:10px 0px 10px;
+
+}
+.i-bloque_izq dt{
+	margin: 0;
+	padding: 0 5px 0;
+	width:100%;
+	height:40px;
+	background: url(../img/leftmenuitem.png) no-repeat bottom left;
+	font-size: 13px;
+	font-weight: bolder;
+}
+.i-bloque_izq dd img{
+	float:left;
+}
+.i-bloque_izq dd{
+	margin: 0;
+	padding: 0 5px 0;
+	padding-right: 0px;
+	width:100%;
+	height:40px;
 background: url(../img/leftmenuitem.png) no-repeat bottom left;
-font-size: 13px;
-font-weight: bolder;
-}
-.leftMenu dd img{
-float:left;
-}
-.leftMenu dd{
-margin: 0;
-padding: 0 5px 0;
-padding-right: 0px;
-width:100%;
-height:40px;
-background: url(../img/leftmenuitem.png) no-repeat bottom left;
 }
 
-.leftMenu dd a {
-font-size:10px; color:#666666; 
+.i-bloque_izq dd a {
+	
+	font-size:12px;
+	color:#666666; 
 } 
 
 
@@ -104,7 +163,7 @@ img {
 
 h1 {
 
-	color: #b0070a;
+	color: #003399 ;
 
 }
 
@@ -126,6 +185,8 @@ h1 {
 
 	background-color: #ffffff;
 	
+	height:100%;
+
 
 }
 
@@ -259,17 +320,17 @@ h1 {
 
 #menu {
 
-  float: left;
+    float: left;
 
 	margin-left: 7px;
 
 	width: 964px;
 
-	background: #DCDCDC url("../img/ddtc_menu_fondo.png") repeat-x top left;
+	background: #003399;  
 
 	font-size: 11pt;
 
-  line-height: 18px;
+    line-height: 18px;
 
 }
 
@@ -291,7 +352,7 @@ h1 {
 
   float: left;
 
-	background: #DCDCDC url("../img/ddtc_menu_fondo.png") repeat-x top right;
+  background: #003399;
 
   margin: 0px;
 
@@ -305,34 +366,13 @@ h1 {
 
   display: block;
 
-  color: #00000;
+  color: #FFFFFF;
 
-  background: #DCDCDC url("../img/ddtc_menu_fondo.png") repeat-x top left;
+  background: #003399;
 
   padding: 4px 20px;
 
 }
-
-
-
-#menu #actual {
-
-	background: #DCDCDC url("../img/ddtc_menu_act_der.png") no-repeat top right;
-
-}
-
-
-
-#menu #actual a {
-
-	color: #DCDCDC;
-
-	background: url("../img/ddtc_menu_act_izq.png") no-repeat top left;
-
-  text-decoration: none;
-
-}
-
 
 
 #pie {
@@ -351,25 +391,28 @@ h1 {
 
 #menu_pie {
 
-  float: left;
+    float: left;
 
-	margin: 10px 0px 0px 7px;
+	margin: 35px 0px 0px 0px;
 
-	width: 620px;
+	width: 100%;
 
-	background: #DCDCDC url("../img/ddtc_pie_fondo.png") repeat-x top left;
+	background: #003399 ;
 
 	font-size: 9pt;
 
-  line-height: 12px;
+    line-height: 12px;
+	
 
 }
 
 
 
 #menu_pie ul {
+	
+  float: right;	
 
-  margin: 0px 15px;
+  margin: 8px 30px;
 
   padding: 0px;
 
@@ -377,17 +420,22 @@ h1 {
 
 }
 
+#menu_pie li.firstElement {
 
+	border-left:medium none !important;
+
+}
 
 #menu_pie li {
 
   float: left;
 
-	background: #DCDCDC url("../img/ddtc_pie_fondo.png") repeat-x bottom right;
+  background: #003399 ;
 
   margin: 0px;
 
-  padding: 0px;
+  border-left:1px solid #C5C5C5;
+
 
 }
 
@@ -397,11 +445,11 @@ h1 {
 
   display: block;
 
-  color: #000000;
+  color: #FFFFFF;
 
-  background: #DCDCDC url("../img/ddtc_pie_fondo.png") repeat-x bottom left;
+  background: #003399 ;
 
-  padding: 3px 20px 5px 20px;
+  padding: 8px 20px 5px 20px;
 
 }
 
@@ -409,7 +457,7 @@ h1 {
 
 #menu_pie #actual {
 
-	background: #DCDCDC url("../img/ddtc_pie_act_der.png") no-repeat bottom right;
+	background: #003399 ;
 
 }
 
@@ -417,11 +465,9 @@ h1 {
 
 #menu_pie #actual a {
 
-	color: #DCDCDC;
+	color: #003399;
 
-	background: url("../img/ddtc_pie_act_izq.png") no-repeat bottom left;
-
-  text-decoration: none;
+    text-decoration: none;
 
 }
 

@@ -32,51 +32,6 @@
 
 
 
-.i-bloque_izq {
-
- 	width: 222px;
-
- 	margin-right: 20px;
-
- 	padding: 0px;
-
- 	float: left;
-
-}
-
-
-
-.i-bloque_der {
-
-  font-size: 100%;
-
-  line-height: 125%;
-
-  margin: 10px;
-
-  width: 480px;
-
-  float: right;
-
-  padding: 5px 10px;
-
-}
-
-
-
-.i-bloque_der li {
-
-  padding-top: 8px;
-
-}
-
- 
-
-.i-bloque_der h1 {
-
-	font-size: 140%;
-
-}
 
 
 
