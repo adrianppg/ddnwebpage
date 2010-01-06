@@ -412,7 +412,7 @@ h1 {
 	
   float: right;	
 
-  margin: 8px 30px;
+  margin: 18px 30px;
 
   padding: 0px;
 
@@ -471,7 +471,12 @@ h1 {
 
 }
 
-
+#logo_pie {
+	
+	margin:5px 0px 5px 40px;
+	width: 125px;
+	height: 50px;
+}
 
 #validacion {
 
