@@ -13,7 +13,7 @@
   
    <div id="cabecera">
     <div id="logo">
-     <a href="http://index.html" title="DDN - Desarrollo Software y Sistemas">
+     <a href="index.php" title="DDN - Desarrollo Software y Sistemas">
       <img src="img/ddn-logo.png" alt="DDN - Desarrollo Software y Sistemas" />
      </a>
     </div><!-- fin logo -->
@@ -21,9 +21,9 @@
    </div><!-- fin cabecera -->
 
    <div id="menu">
-   <ul>
+    <ul>
       <li id="actual"><a href="index.php" title="Inicio">Inicio</a></li>
-      <li><a href="nosotros.php" title="Quiénes somos">Quiénes somos</a></li>
+      <!--<li><a href="nosotros.php" title="Quiénes somos">Quiénes somos</a></li>-->
       <li><a href="servicios.php" title="Servicios">Servicios</a></li>
       <li><a href="capacidades.php" title="Capacidades">Capacidades</a></li>
       <li><a href="casosExito.php" title="Casos de éxito">Casos de éxito</a></li>

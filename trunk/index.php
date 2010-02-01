@@ -13,23 +13,17 @@
   
    <div id="cabecera">
     <div id="logo">
-     <a href="http://index.html" title="DDN - Desarrollo Software y Sistemas">
+     <a href="index.php" title="DDN - Desarrollo Software y Sistemas">
       <img src="img/ddn-logo.png" alt="DDN - Desarrollo Software y Sistemas" />
      </a>
     </div><!-- fin logo -->
 
    </div><!-- fin cabecera -->
-   <!-- SWFObject - http://code.google.com/p/swfobject/ -->
-   <div id="ddtc_banner" style="margin-left: 8px">
-      <!-- contenido alternativo a Flash -->
-      <a href="http://www.adobe.com/go/getflashplayer" title="Clic aquí para instalar Flash player"><img src="img/ddtc_banner.jpg" alt="Clic aquí para instalar Flash player" /></a>
 
-   </div><!-- fin ddtc_banner -->
-   <!-- fin SWFObject -->
    <div id="menu">
     <ul>
       <li id="actual"><a href="index.php" title="Inicio">Inicio</a></li>
-      <li><a href="nosotros.php" title="Quiénes somos">Quiénes somos</a></li>
+      <!--<li><a href="nosotros.php" title="Quiénes somos">Quiénes somos</a></li>-->
       <li><a href="servicios.php" title="Servicios">Servicios</a></li>
       <li><a href="capacidades.php" title="Capacidades">Capacidades</a></li>
       <li><a href="casosExito.php" title="Casos de éxito">Casos de éxito</a></li>
@@ -42,45 +36,49 @@
     <div class="i-bloque">
 
      <div class="i-bloque_izq">
+ 
 
-		 <img id="logo_pie" alt="DDN" src="img/logo_ddn_5.jpg"/>
+       <div id="noticias">
+        <h1>Noticias <img src="img/ddtc_logo_neg_mp.gif" alt="DDN" /></h1>
+        <div id="noticias_newsTicker">
+        </div><!-- noticias_newsTicker -->
+   
+       </div><!-- noticias -->
 
      </div><!-- fin i-bloque_izq -->
 
      <div class="i-bloque_der">
       <h1>DDN: nuestra empresa</h1>
       <p>
-       <strong class="DDN">DDN</strong> está especializada en el desarrollo de soluciones de <strong>calidad</strong>,
-       profesionales y atractivas dentro de las áreas de desarrollo web,
-       diseño gráfico, proyectos multimedia, posicionamiento en buscadores y publicidad online.
+       <strong class="DDN">DDN</strong> DDN está formada por jóvenes ingenieros informáticos 
+	   en la que desarrollamos productos software de calidad
+	   vinculando las tecnologías más punteras con el buen saber hacer.
       </p>
 
       <p>
-       Los productos de <strong class="DDN">DDN</strong> reunen las siguientes características:
+       Nuestras principales dedicaciones son a grandes rasgos:
       </p>
       <ul>
-       <li><strong>Funcionalidad</strong>, imprescindible en cualquier proyecto profesional.</li>
-       <li><strong>Atractivo visual</strong>, sin el cual hoy en día ningún proyecto puede considerarse completo.</li>
-
-       <li><strong>Cumplimiento de estándares</strong>, lo que garantiza su compatibilidad con las plataformas presentes y futuras.</li>
-       <li><strong>Usabilidad</strong>, que facilita una excelente experiencia de usuario.</li>
-       <li><strong>Accesibilidad</strong>, que no sólo resulta imprescindible en proyectos relacionados con las administraciones públicas,
-        sino que además permite abarcar la máxima audiencia posible.</li>
-       <li><strong>Seguridad</strong>, necesaria para aquellos desarrollos web que exigan un mínimo nivel de confianza.</li>
+       <li>Desarrollo de aplicaciones web para la gestión empresarial o ERP, donde tratamos de integrar funcionalidad y usabilidad como pilares básicos del software.</li>
+       <li>Creación de aplicaciones móviles haciendo hincapié especialmente en la personalización de contenidos y el geoposicionamiento.</li>
+       <li>Aplicaciones para Televisión Digital Interactiva (TDI) usando la TDT como vehículo de acercamiento de los ciudadanos a la Sociedad de la Información.</li>
       </ul>
 
       <p>
-       En el caso de nuestros proyectos para Internet nos aseguramos de que sus características, en la
-       medida de lo posible, permitan un <strong>posicionamiento óptimo</strong> en los buscadores más conocidos.
-       Complementariamente ofrecemos servicios adicionales de posicionamiento, tanto básicos como más avanzados, así como 
-       servicios especializados de publicidad online.
+      Nuestro principal valor es la internacionalización de la web. Apostamos por la apertura de los mercados que nos ofrece Internet, y para ello
+	  pretendemos que nuestros clientes piensen que su mercado puede ser tan amplio como la cobertura de la red alcance. Por ello
+      consideramos fundamental que las aplicaciones web estén desde su origen orientadas a la <strong>internacionalización</strong>:
       </p>
-      <p>
-       Un servicio de esta calidad no sería posible sin un equipo humano como el de <strong class="DDN">DDN</strong>,
-       que acumula una larga experiencia profesional y amplios conocimientos
-       en todos nuestros ámbitos de actuación. Y todo ello manteniendo una estrecha colaboración
-       con nuestros clientes para obtener el mejor resultado posible,
-       y con la mejor relación calidad/precio.
+      <ul>
+		<li><strong>B2B</strong> "bussiness to bussiness" donde...</li>
+		<li><strong>B2E</strong> "bussiness to employee" ...</li>
+		<li><strong>B2C</strong> "bussiness to consumer"...</li>
+	  </ul>
+	  
+	  <p>
+      Resaltar que para nosotros lo principal son nuestros clientes y nuestra clave la 
+	  especialización y profesionalidad de nuestro equipo humano
+	  que apuesta por el mejor servicio y calidad del producto. 
       </p>
       <p>
       </p>
@@ -90,8 +88,7 @@
     
    </div><!-- fin contenido -->
 
-  
-   <div id="pie">
+     <div id="pie">
 
     <div id="menu_pie">
 	 <ul>
